@@ -1,8 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	/*background-size: cover;*/
-	/*background: #0000ff;*/
+
 }
 .earsl {
 	padding: 20px;
@@ -49,22 +48,47 @@ body {
 .eyesl {
 	border-radius: 50%;
 	position: relative;
+
 	background-color: green;
 	height: 25px;
 	width: 25px;
 	left: 15px;
 	top: 20px;
 }
-/*.eyesl::after {
-
-}*/
+.eyesl::after {
+	content: '';
+	position: relative;
+	border-radius: 50%;
+	height: 5px;
+	width: 5px;
+	background-color: white;
+	border: 2px solid transparent;
+	border-right:  2px solid white;
+	border-bottom:  2px solid white;
+	bottom: 22px;
+	left: 10px;
+}
 .eyesr {
 	border-radius: 50%;
 	position: relative;
+	
 	background-color: green;
 	height: 25px;
 	width: 25px;
 	left: 45px;
+}
+.eyesr::after {
+	content: '';
+	position: relative;
+	border-radius: 50%;
+	height: 5px;
+	width: 5px;
+	background-color: white;
+	border: 2px solid transparent;
+	border-right:  2px solid white;
+	border-bottom:  2px solid white;
+	bottom: -3px;
+	left: 10px;
 }
 .nose {	
 	padding: 15px;
@@ -81,8 +105,6 @@ body {
 }
 .mustache {
 	position: relative;
-	
-	
 }
 .rt {
 	position: relative;
@@ -116,6 +138,7 @@ body {
 }
 .lt {
 	position: relative;
+	left: -5px;
 	background-color: black;
 	height: 4px;
 	width: 40px;
@@ -125,6 +148,7 @@ body {
 }
 .lm {
 	position: relative;
+	left: -5px;
 	background-color: black;
 	height: 4px;
 	width: 40px;
@@ -134,6 +158,7 @@ body {
 }
 .lb {
 	position: relative;
+	left: -5px;
 	background-color: black;
 	height: 4px;
 	width: 40px;
