@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding: 0;
+	/*background-size: cover;*/
+	/*background: #0000ff;*/
+}
+.earsl {
+	padding: 20px;
+	position: relative;
+	border-radius: 15px;
+}
+.earsl::after {
+	content: '';
+	position: absolute;
+	left: 55px;
+	bottom: 0px;
+	border: 20px solid transparent;
+	border-bottom: 20px solid orange;
+	border-left: 20px solid orange;
+}
+.earsr {
+	padding: 20px;
+	position: relative;
+	border-radius: 15px;
+}
+.earsr::after {
+	content: '';
+	position: absolute;
+	left: 85px;
+	bottom: -20px;
+	border: 20px solid transparent;
+	border-right:  20px solid orange;
+	border-bottom:  20px solid orange;
+}	
+
+.heads {
+	padding: 10px;
+	height: 100px;
+	width: 100px;
+	left: 40px;
+	top: -20px;
+	color: orange;
+	border-radius: 50%;
+	border-color: orange;
+	position: relative;
+	background-color: orange;
+
+}
+.eyesl {
+	border-radius: 50%;
+	position: relative;
+	background-color: green;
+	height: 25px;
+	width: 25px;
+	left: 15px;
+	top: 20px;
+}
+/*.eyesl::after {
+
+}*/
+.eyesr {
+	border-radius: 50%;
+	position: relative;
+	background-color: green;
+	height: 25px;
+	width: 25px;
+	left: 45px;
+}
+.nose {	
+	padding: 15px;
+	position: relative;
+	border-radius: 15px;
+}
+.nose::after {
+	content: '';
+	position: absolute;
+	left: 35px;
+	top: 25px;
+	border: 15px solid transparent;
+	border-top: 15px solid black;
+}
+.mustache {
+	position: relative;
+	
+	
+}
+.rt {
+	position: relative;
+	left: 65px;
+	bottom: 12px;
+	background-color: black;
+	height: 4px;
+	width: 40px;
+	border-radius: 5px;
+	transform: rotate(-10deg);
+}
+.rm {
+	position: relative;
+	left: 65px;
+	bottom: 12px;
+	background-color: black;
+	height: 4px;
+	width: 40px;
+	border-radius: 5px;
+	transform: rotate(0deg);
+}
+.rb {
+	position: relative;
+	left: 65px;
+	bottom: 12px;
+	background-color: black;
+	height: 4px;
+	width: 40px;
+	border-radius: 5px;
+	transform: rotate(10deg);
+}
+.lt {
+	position: relative;
+	background-color: black;
+	height: 4px;
+	width: 40px;
+	border-radius: 5px;
+	transform: rotate(10deg);
+	flex: right;
+}
+.lm {
+	position: relative;
+	background-color: black;
+	height: 4px;
+	width: 40px;
+	border-radius: 5px;
+	transform: rotate(0deg);
+	flex: right;
+}
+.lb {
+	position: relative;
+	background-color: black;
+	height: 4px;
+	width: 40px;
+	border-radius: 5px;
+	transform: rotate(-10deg);
+	flex: right;
+}
